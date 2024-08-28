@@ -1,0 +1,117 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(117, 108, 56);
+}
+
+button {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.calculator {
+    height: 600px;
+    width: 400px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 30px;   
+    border-radius: 15px; 
+    background-color: rgb(0, 0, 0);
+}
+
+.display {
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 0 10px 10px 0;
+    text-align: end;
+    font-size: 80px;
+    background-color: rgb(255, 252, 252);
+    border-radius: 10px;
+}
+
+.buttons {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightseagreen;
+    border-radius: 2px;
+    justify-content: center;
+}
+
+.upper-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.upper-buttons .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.upper-buttons .left button {
+    width: 80px;
+    height: 60px;
+}
+
+.lower-buttons {
+    display: flex;
+    margin-top: 8px;
+}
+
+.digits {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.circle-button {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+}
+
+
+.digit {
+    background-color:bisque;
+}
+
+.operator, #sign {
+    background-color: rgb(184, 186, 192);
+}
+
+#clear, #delete {
+    background-color: rgb(155, 20, 20);
+    flex: 3;  
+}
+
+#point, #equals {
+    background-color:blanchedalmond;
+}
+.footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #b1b1b1;
+    color: brown;
+    position: fixed;  /* Fixes the footer at the bottom of the viewport */
+    width: 100%;
+    bottom: 0;  /* Aligns it to the bottom */
+    left: 0;
+    font-size: 2em;
+}
