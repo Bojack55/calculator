@@ -17,8 +17,8 @@ button {
 }
 
 .calculator {
-    height: 600px;
-    width: 400px;
+    height: auto;
+    width: auto;
     border: 3px solid rgb(0, 0, 0);
     padding: 30px;   
     border-radius: 15px; 
